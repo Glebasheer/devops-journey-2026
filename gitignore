@@ -1,0 +1,28 @@
+# ОС файлы
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Редакторы и IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Логи и временные файлы
+*.log
+logs/
+tmp/
+temp/
+
+# Конфиденциальные данные
+.env
+*.pem
+*.key
+*.crt
+secrets/
+
+# Для будущих технологий DevOps
+.terraform/       # для Terraform
+.vagrant/        # для Vagrant
+.ansible/        # для Ansible
